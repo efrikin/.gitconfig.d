@@ -1,0 +1,6 @@
+[include]
+	path = ~/.gitconfig.d/01-user
+	path = ~/.gitconfig.d/02-gpg
+	path = ~/.gitconfig.d/03-editor
+
+

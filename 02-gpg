@@ -1,0 +1,11 @@
+[user]
+	signingKey = ~/.ssh/id_ed25519_sk_rk_common
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.gitconfig.d/allowed_signers
+[commit]
+	gpgsign = true
+[core]
+	sshCommand = ssh -i ~/.ssh/id_ed25519_sk_rk_common
+
